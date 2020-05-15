@@ -1,0 +1,26 @@
+[DEBUG][20-05-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1909546776.
+[DEBUG][20-05-15][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@71d15f18]
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]==>  Preparing: select * from user 
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]==> Parameters: 
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]<==      Total: 3
+[DEBUG][20-05-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-05-15][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-05-15][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-05-15][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1392906938.
+[DEBUG][20-05-15][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@530612ba]
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]==>  Preparing: select * from user 
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]==> Parameters: 
+[DEBUG][20-05-15][lqx.mapper.UserMapper.getUsers]<==      Total: 3
+[INFO][20-05-15][mytest]info：进入selectUser方法
+[DEBUG][20-05-15][mytest]debug：进入selectUser方法
+[ERROR][20-05-15][mytest]error: 进入selectUser方法
