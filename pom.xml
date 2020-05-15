@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>mybatis01-FirstProg</module>
+        <module>mybatis02-CRUD</module>
     </modules>
     <dependencies>
         <dependency>
@@ -28,6 +29,5 @@
             <version>4.12</version>
         </dependency>
     </dependencies>
-
 
 </project>

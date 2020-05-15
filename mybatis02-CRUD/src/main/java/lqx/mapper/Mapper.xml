@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lqx.mapper.UserMapper">
+    <select id="getUsers" resultType="lqx.mapper.User">
+  select * from user
+ </select>
+    <select id="getUserByID" parameterType="int" resultType="lqx.mapper.User">
+        select * from user where id=#{id}
+    </select>
+    <insert id="insert" parameterType="lqx.mapper.User">
+         insert into user (id,name,pwd) values (#{id},#{name},#{pwd})
+    </insert>
+    <update id="update" parameterType="lqx.mapper.User">
+  update user set name=#{name},pwd=#{pwd} where id = #{id}
+</update>
+    <delete id="delete" parameterType="int">
+  delete from user where id = #{id}
+</delete>
+</mapper>
