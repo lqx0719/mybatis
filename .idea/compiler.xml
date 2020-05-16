@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis03-ResultMap" />
         <module name="mybatis02-CRUD" />
-        <module name="Mybatis05-DynamicSQL" />
+        <module name="mybatis05-DynamicSQL" />
         <module name="mybatis04-complexOperation" />
         <module name="mybatis04-complexOperation2" />
         <module name="mybatis01-FirstProg" />
